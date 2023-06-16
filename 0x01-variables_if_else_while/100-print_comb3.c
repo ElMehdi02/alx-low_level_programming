@@ -2,7 +2,7 @@
 
 /**
  * main - prints all possible different combinations of two digits
- * Return: Always 0 (Success)
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	i = 0;
 	while (i <= 8)
-	{ 
+	{
 		j = i + 1;
 		while (j <= 9)
 		{
@@ -19,12 +19,12 @@ int main(void)
 			putchar(j + 48);
 			if (i < 8 || j < 9)
 			{
-				putchar('_');
+				putchar(',');
 				putchar(' ');
 			}
-			j++
-		} 
-		i++
+			j++;
+		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
