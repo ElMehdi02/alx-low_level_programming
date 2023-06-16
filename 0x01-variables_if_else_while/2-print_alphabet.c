@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - printthe alphabet in lowercase
+ * main - print alphabets in lowercase
  * putchar prints the alphabets
- * Return: always 0 (Success)
+ * Return: Always 0 (Success)
  */
- int main(void)
+int main(void)
 {
 	int i;
 
 	i = 97;
 	while (i < 123)
 	{
-	       putchar(i);
-               i++;
-        }
-        putchar('\n');
-        return (0);
-}	
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}
