@@ -1,8 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - entry point
- * description - print the sum of the even value in the range 
+ * description - print the sum of the even value in the range
  * of first fibonacci numbers before 4000000
  * Return: Always 0 (success)
  */
