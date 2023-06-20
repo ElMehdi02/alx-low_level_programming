@@ -4,14 +4,14 @@
  * main - finds and prints the first 98 Fibonacci numbers,
  * starting with 1 and 2
  * followed by a new line
- * Return: always 0 (Success)
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
 	unsigned long int a, b, c, b1, b2, c1, c2;
 
 	b = 1;
-	c =2;
+	c = 2;
 
 	printf("%lu", b);
 
@@ -36,7 +36,7 @@ int main(void)
 		c2 = c2 + b2;
 		b2 = c2 - b2;
 	}
-	
+
 	printf("\n");
 
 	return (0);
