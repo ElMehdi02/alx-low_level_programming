@@ -51,7 +51,7 @@ void times_table(void)
 				_putchar(a + 48);
 				check(i, mult);
 			}
-			mult++
+			mult++;
 		}
 		mult = 0;
 		i++;
