@@ -2,7 +2,7 @@
 
 /**
  * printnumber - prints number
- * @n: nb to be printed
+ * @nb: nb to be printed
  */
 
 void printnumber(int nb)
@@ -25,8 +25,8 @@ void printnumber(int nb)
 }
 
 /**
- * print_times_table - prints number multiplication table 
- * @n: n the number of multiplication colums
+ * print_times_table - prints number multiplication table
+ * @n: n the number of multiplication columns
  */
 
 void print_times_table(int n)
@@ -65,6 +65,7 @@ void print_times_table(int n)
 				j++;
 			}
 			_putchar('\n');
+			i++;
 		}
 	}
 }
