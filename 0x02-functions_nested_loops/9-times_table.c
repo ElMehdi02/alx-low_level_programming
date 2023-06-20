@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check if it's the last column of each line.
+ * check - check if it's the last column of each line.
  * @i: int i the number to be multiplied
  * @mult: int mult the number i is multiplied with
  */
@@ -13,7 +13,7 @@ void check(int i, int mult)
 		_putchar(',');
 		_putchar(' ');
 	}
-	if (mult < 9 && (i * (mult +1)) < 10)
+	if (mult < 9 && (i * (mult + 1)) < 10)
 	{
 		_putchar(',');
 		_putchar(' ');
