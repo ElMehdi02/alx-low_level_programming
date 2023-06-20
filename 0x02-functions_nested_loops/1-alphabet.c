@@ -15,5 +15,5 @@ void print_alphabet(void)
 		putchar(c);
 		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
