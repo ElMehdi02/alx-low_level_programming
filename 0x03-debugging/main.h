@@ -1,2 +1,2 @@
 #define main
-int main(void)
+int main (void)
