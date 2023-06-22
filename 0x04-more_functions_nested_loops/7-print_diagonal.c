@@ -19,13 +19,13 @@ void print_diagonal(int n)
 		while (i <= n)
 		{
 			spaces = i - 1;
-			while (spaces > 0)
-			{
-				_putchar(' ');
-				spaces--;
-			}
+				while (spaces > 0)
+				{
+					_putchar(' ');
+					spaces--;
+				}
 			_putchar('\\');
-			_putchat('\n');
+			_putchar('\n');
 			i++;
 		}
 	}
