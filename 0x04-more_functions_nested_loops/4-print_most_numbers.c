@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* _most_numbers - prints numbers
-* description: prints number starting from 0 to 9 except for 2 and 4
-*/
+ * print_most_numbers - prints number
+ * description: prints number starting from 0 to 9 except for 2 and 4
+ */
 
 void print_most_numbers(void)
 {
-	char bumber;
+	char number;
 
 	number = '0';
 	while (number <= '9')
