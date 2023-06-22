@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-triangle - prints a triangle n times large
+ * print_triangle - prints a triangle n times large
  * @size: the size of the triangle
  * description: prints a square n times large using _putchar
  */
