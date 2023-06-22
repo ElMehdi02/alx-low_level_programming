@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *  main - Entry point
- *  Description: FIZZBUZZ who doesn't know it
- *  Return: always 0 (Success)
+ * main - Entry point
+ * Desription: FIZZBUZZ who doesn't know it
+ * Return: always 0 (Success)
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	while (i <= 100)
 	{
 		if (i % 5 == 0 && i % 3 == 0)
-			printf(" Fizzbuzz");
+			printf(" FizzBuzz");
 		else if (i % 3 == 0)
 			printf(" Fizz");
 		else if (i % 5 == 0)
