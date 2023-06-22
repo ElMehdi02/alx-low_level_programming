@@ -9,7 +9,7 @@ void print_most_numbers(void)
 {
 	char bumber;
 
-	number = '0';
+	bumber = '0';
 	while (number <= '9')
 	{
 		if (number == '2' || number == '4')
