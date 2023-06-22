@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
 * _isdigit - function that checks if passed char is a number
