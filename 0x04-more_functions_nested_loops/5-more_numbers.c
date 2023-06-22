@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_one_digit - prints one digit
-* @n: the number to be printed
-*/
+ * print_one_digit - prints one digit
+ * @n: the number to be printed
+ */
 
 void print_one_digit(int n)
 {
@@ -11,9 +11,9 @@ void print_one_digit(int n)
 }
 
 /**
-* print_numbers - prints numbers from 0 to 14
-* description: prints numbers starting from 0 to 14 
-*/
+ * print_numbers - prints numbers from 0 to 14
+ * description: prints numbers starting from 0 to 14
+ */
 
 void print_numbers(void)
 {
@@ -35,17 +35,18 @@ void print_numbers(void)
 }
 
 /**
-* more_numbers - prints numbers
-* desription: prints numbers starting from 0 to 14 10 times
-*/
+ * more_numbers - prints numbers
+ * description: prints numbers starting from 0 to 14 10 timess
+ */
 
 void more_numbers(void)
 {
 	int i;
-	 i = 1;
-	 while (i <= 10)
-	 {
-		 print_number();
-		 i++;
-	 }
+
+	i = 1;
+	while (i <= 10)
+	{
+		print_numbers();
+		i++;
+	}
 }
