@@ -1,44 +1,28 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * leet - converts specific characters to 4-3-0-7-1
- * @s: the string to iterate through
- * Return: return the converted string
- **/
-
-char *leet(char *s)
+ * *leet - take strings and capitalize words
+ * @str: string to capitalize
+ * Return: capitalized words
+ */
+char *leet(char *str)
 {
-	int i;
-	int j;
-	char leet[11] = "aAeEoOtTlL";
-	int convert[5] = {4, 3, 0, 7, 1};
+	int i, j;
+	char encoded[] = "aAeEoOtTlL4433007711";
 
-	j = 0;
 	i = 0;
-	while (s[i])
+
+	while (*(str + i) != '\0')
 	{
-		j = 0;
-		while (leet[j])
+		for (j = 0; encoded[j] != '\0'; j++)
 		{
-			if (s[i] == leet[j])
+			if (str[i] == encoded[j])
 			{
-				s[i] = convert[j / 2] + 48;
+				str[i] = encoded[j + 10];
+				break;
 			}
-			j++;
 		}
 		i++;
 	}
-	return (s);
-}
-
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
-
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+	return (str);
 }
