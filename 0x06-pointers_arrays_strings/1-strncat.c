@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates n bytes from string dest to src
- * @dest: the string to concatenates to
- * @src: the string to concatenates from
+ * @dest: the string to concatenate to
+ * @src: the string to concatenate from
  * @n: the number of bytes to get from src
  * Return: the final result in dest
  */
@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i] = ' ';
 	while (src[j] && j < n)
 	{
-		dest[i] = src [j];
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
