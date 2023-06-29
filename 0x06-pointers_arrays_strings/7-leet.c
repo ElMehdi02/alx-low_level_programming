@@ -34,7 +34,7 @@ char *leet(char *s)
 
 int main(void)
 {
-    char = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
+    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
     char *p;
 
     p = leet(s);
