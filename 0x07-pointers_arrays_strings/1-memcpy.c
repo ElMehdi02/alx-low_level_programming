@@ -8,9 +8,10 @@
  * Return: a pointer to dest.
  */
 
-char *_memcpy(char *dest, char *src, insigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
+	
 	 i = 0;
 	 while (i < n)
 	 {
