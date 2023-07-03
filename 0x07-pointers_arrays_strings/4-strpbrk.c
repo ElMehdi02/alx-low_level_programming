@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * _strpbk - searches a string for any of a set of bytes.
+ * _strpbrk - searches a string for any of a set of bytes.
  * @s: string
  * @accept: substring
  * Return: a pointer to the byte in s.
  */
 
-char *_strpbk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 	int j;
@@ -23,6 +23,7 @@ char *_strpbk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 				found = 1;
+			j++;
 		}
 		if (found == 1)
 			return (s + i);
