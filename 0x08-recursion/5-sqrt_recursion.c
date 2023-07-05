@@ -20,13 +20,13 @@ int find_square_root(int n, int low, int high)
 	else if (mid * mid > n)
 		return (find_square_root(n, low, mid));
 	else
-		return (find_square-root(n, mid + 1, high));
+		return (find_square_root(n, mid + 1, high));
 }
 
 /**
  * _sqrt_recursion - computes the square root of n
  * @n: the number to compute the square root of
- * Return: return the square root of n, -1 otherwise
+ * Return: return the square root of n, -1 otherwise.
  */
 
 int _sqrt_recursion(int n)
@@ -36,5 +36,5 @@ int _sqrt_recursion(int n)
 	else if (n == 16777216)
 		return (4096);
 	else
-		return (find-square_root(n, 0, n));
+		return (find_square_root(n, 0, n));
 }
