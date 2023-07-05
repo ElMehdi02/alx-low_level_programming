@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * find_square_root - finds the square root with a binary algorithm
