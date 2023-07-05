@@ -19,7 +19,7 @@ int check_if_divisible(int n, int i)
 /**
  * is_prime_number - check if n is prime
  * @n: number to check if prime
- * Return: 1 if prime, 0 otherwise
+ * Return: 1 if prime, 0 otherwise.
  */
 
 int is_prime_number(int n)
@@ -30,5 +30,5 @@ int is_prime_number(int n)
 		return (1);
 	else if (n % 2 == 0)
 		return (0);
-	return (check_if_divisible(n, 3)):
+	return (check_if_divisible(n, 3));
 }
