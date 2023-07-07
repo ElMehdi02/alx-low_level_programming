@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 
 /**
  * main - program that prints the minimum number of coins
- * to make change for an amount of money
+ * to make change for an amount of money.
  * @argc: count of the arguments.
  * @argv: pointers to the strings which are those arguments.
  * Return: 0 if successful.
@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int coint[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 	int i = 0, rest, count = 0;
 
 	if (argc != 2)
