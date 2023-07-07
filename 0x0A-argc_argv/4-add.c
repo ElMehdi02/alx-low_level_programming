@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limit.h>
+#include <limits.h>
 
 
 /**
@@ -23,7 +23,7 @@ int chartoint(char *c)
  * main - function that prints all arguments it receives.
  * @argc: count of the arguments.
  * @argv: pointers to the strings which are those arguments.
- * Return: 0 if succeccful.
+ * Return: 0 if successful.
  */
 int main(int argc, char *argv[])
 {
@@ -53,3 +53,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 }
+
