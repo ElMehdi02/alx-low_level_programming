@@ -5,7 +5,7 @@
 /**
  * _strlen - returns the length of a given string
  * @s: the string
- * Return: the length of a given string
+ * Return: the length of given string
  */
 
 int _strlen(char *s)
@@ -21,7 +21,7 @@ int _strlen(char *s)
 }
 
 /**
- * _create_array -creates an array of chars.
+ * _create_array - creates an array of chars.
  * @size: the size of the memory to allocate.
  * Return: the array created.
  */
@@ -40,7 +40,7 @@ char *_create_array(unsigned int size)
 
 /**
  * str_concat - concatenates two string.
- * @S1: the first string.
+ * @s1: the first string.
  * @s2: the second string.
  * Return: the concatenated string.
  */
@@ -66,12 +66,17 @@ char *str_concat(char *s1, char *s2)
 	else if (s1 == NULL)
 	{
 		size_s1 = 0;
-		soze_s2 = _strlen(s1);
+		size_s2 = _strlen(s2);
+	}
+	else if (s2 == NULL)
+	{
+		size_s2 = 0;
+		size_s1 = _strlen(s1);
 	}
 	str = _create_array(size_s1 + size_s2 + 1);
 	if (!str)
 		return (NULL);
-	for (i = 0; i < size_s1; i++;)
+	for (i = 0; i < size_s1; i++)
 		str[i] = s1[i];
 	for (j = 0; j < size_s2; j++)
 	{
