@@ -27,16 +27,34 @@ int _strlen(char *s)
 
 char *_create_array(unsigned int size)
 {
+	char *array;
+
+	if (size == 0)
+		return (NULL);
+	array = malloc(sizeof(char) * size);
+	if (!array)
+		return (NULL);
+	return (array);
+}
+
+/**
+ * _strdup - duplicates a given string.
+ * @str: the string to duplicate.
+ * Return: the array created.
+ */
+
+char *_strdup(char *str)
+{
 	char *new_str;
 	int i;
 
 	if (str == NULL)
 		return (NULL);
 	i = 0;
-	new_str = _create_array(_strlen(str) _ 1);
+	new_str = _create_array(_strlen(str) + 1);
 	if (!new_str)
-		return (NULL):
-			while (i <= _strlen(str))
+		return (NULL);
+	while (i <= _strlen(str))
 	{
 		new_str[i] = str[i];
 		i++;
@@ -46,7 +64,7 @@ char *_create_array(unsigned int size)
 
 /**
  * new_dog - creates a new dog
- * @name: dog's name
+ * @name: dogs name
  * @age: the dog's age
  * @owner: the owner's name
  * Return: the dog created, NULL otherwise
