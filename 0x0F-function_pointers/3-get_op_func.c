@@ -1,4 +1,4 @@
-#include "3-clac.h"
+#include "3-calc.h"
 
 /**
  * get_op_func - function pointer to compute given an operator
