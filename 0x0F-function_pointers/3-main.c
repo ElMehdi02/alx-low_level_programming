@@ -1,4 +1,4 @@
-#include "3-clac.h"
+#include "3-calc.h"
 
 /**
  * main - program that perfroms simple operations
@@ -11,7 +11,7 @@ int main(int ac, char *av[])
 {
 	int ar1, ar2, result;
 	char op;
-	int (*func)(int , int);
+	int (*func)(int, int);
 
 	if (ac != 4)
 	{
@@ -32,7 +32,7 @@ int main(int ac, char *av[])
 
 	op = *av[2];
 
-	if ((op == '/' || op ==  '%') && ar2 == 0)
+	if ((op == '/' || op == '%') && ar2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
