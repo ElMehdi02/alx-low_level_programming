@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * pop_listint - removes the first node from a linked list
- * and returns its integer value
+ * pop_listint - Removes the first node from a linked list
+ * and returns its integer value.
  *
- * @head: a pointer to a pointer to the head of the linked list
+ * @head: A pointer to a pointer to the head of the linked list.
  *
- * Return: the integer value of the first node on success, or 0 on failure
+ * Return: The integer value of the first node on success, or 0 on failure.
  */
 
 int pop_listint(listint_t **head)
