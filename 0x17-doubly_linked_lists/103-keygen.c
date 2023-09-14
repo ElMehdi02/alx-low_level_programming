@@ -81,7 +81,7 @@ int f6(char *usrn)
  *
  * @argc: arguments count
  * @argv: arguments vector
- * Return: always 0
+ * Return: Always 0
  */
 int main(int argc, char **argv)
 {
@@ -111,7 +111,7 @@ int main(int argc, char **argv)
 	while (vch < len)
 	{
 		ch = argv[1][vch] * ch;
-		vch= vch + 1;
+		vch = vch + 1;
 	}
 	keygen[2] = ((char *)alph)[(ch ^ 85) & 63];
 	/* ----------- f4 ----------- */
